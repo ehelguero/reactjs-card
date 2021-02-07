@@ -1,0 +1,21 @@
+body {
+    background-color: #e6f3ff;
+    font-family: Helvetica;
+}
+
+.events-container {
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 300px;
+    margin: 100px auto;
+    box-shadow: 0 10px 40px -14px rgba(135,144,158,0.6), 0 10px 40px -10px rgba(135,144,158,0.6);
+}
+
+.events-container h3 {
+    background-color: rgba(80,103,124,0.73);
+    padding: 14px 18px;
+    font-size: 18px;
+    margin-top: 0;
+    color: white;
+}
