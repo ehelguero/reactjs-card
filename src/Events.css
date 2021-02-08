@@ -3,7 +3,7 @@ body {
     font-family: Helvetica;
 }
 
-.events-container, .movement-container {
+.events-container, .movement-container, .form-container {
     background-color: #fff;
     border-radius: 6px;
     overflow: hidden;
@@ -12,10 +12,30 @@ body {
     box-shadow: 0 10px 40px -14px rgba(135,144,158,0.6), 0 10px 40px -10px rgba(135,144,158,0.6);
 }
 
-.events-container h3, .movement-container h3 {
+.form-container form {
+    padding: 5px;
+}
+
+.events-container h3, .movement-container h3, .form-container h3 {
     background-color: rgba(80,103,124,0.73);
     padding: 14px 18px;
     font-size: 18px;
     margin-top: 0;
     color: white;
+}
+
+.form-container input[type="text"] {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.form-container .error {
+    color: red;
+    font-size: 11px;
+    display: block;
+    margin-bottom: 4px;
 }
